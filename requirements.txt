@@ -1,0 +1,9 @@
+fastapi==0.115.9
+uvicorn==0.34.3
+python-dotenv==1.1.0
+openai==1.88.0
+chromadb==1.0.12
+langchain==0.3.25
+langchain-community==0.3.25
+python-multipart==0.0.20
+sentence-transformers==2.2.2

@@ -89,12 +89,12 @@ ollama pull llama3
 ```
 
 3. Build the Docker image from the docker file.
-```bash
+```python
 docker build -t rag_chatbot:chatbot .
 ```
 
 4. Finally, run the Docker container
-```bash
+```python
 docker run -p 127.0.0.1:8000:8000 rag_chatbot:chatbot
 ```
 

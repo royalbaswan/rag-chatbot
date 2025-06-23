@@ -74,7 +74,7 @@ async def generate_response(req: QueryRequest):
         
         # retrieving top 3 relevant chunks based on embeddings of query
         collection = get_or_create_collection()
-        retrieved_texts = collection.query(query_embeddings= query_embeddings, n_results=3)
+        retrieved_texts = collection.query(query_embeddings= query_embeddings, n_results=5)
         logger.info("Retrieved vector store collection based on the query.")
         logger.info(f"Retrieved top {len(retrieved_texts['documents'][0])} relevant chunks.")
         

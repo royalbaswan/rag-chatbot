@@ -81,7 +81,7 @@ Note: Skip 1 and 2 if already done in the steup instructions.
 
 1. Installing ollama
 ```python
-RUN curl -fsSL https://ollama.com/install.sh | sh
+curl -fsSL https://ollama.com/install.sh | sh
 ```
 2. Download ollam3 model
 ```python

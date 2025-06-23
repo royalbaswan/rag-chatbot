@@ -17,7 +17,7 @@ import os
 logger = logging.getLogger(__name__)
 chroma_client = chromadb.PersistentClient("chroma")
 
-def get_or_create_collection(name: str = "chroma", get=True):
+def get_or_create_collection(name: str = "chroma"):
     """ Creates or retrieves the chroma database with 
     a name. By default: chroma """ 
     return chroma_client.get_or_create_collection(name)
